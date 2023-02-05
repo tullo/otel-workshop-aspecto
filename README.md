@@ -1,1 +1,1 @@
-# github.com-tullo-otel-workshop-aspecto
+# otel-workshop-aspecto
