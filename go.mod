@@ -3,7 +3,7 @@ module github.com/tullo/otel-workshop-aspecto
 go 1.19
 
 require (
-	github.com/tullo/otel-workshop/web/fib v0.4.0
+	github.com/tullo/otel-workshop/web/fib v1.0.0
 	go.opentelemetry.io/otel v1.13.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.12.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.12.0
