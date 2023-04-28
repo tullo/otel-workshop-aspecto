@@ -4,11 +4,11 @@ go 1.19
 
 require (
 	github.com/tullo/otel-workshop/web/fib v1.0.0
-	go.opentelemetry.io/otel v1.14.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.14.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.14.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.14.0
-	go.opentelemetry.io/otel/sdk v1.14.0
+	go.opentelemetry.io/otel v1.15.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace v1.15.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.15.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.15.0
+	go.opentelemetry.io/otel/sdk v1.15.0
 	google.golang.org/grpc v1.54.0
 )
 
