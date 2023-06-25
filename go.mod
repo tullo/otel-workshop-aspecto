@@ -4,7 +4,7 @@ go 1.20
 
 // GOPROXY=https://proxy.golang.org GO111MODULE=on go get github.com/tullo/otel-workshop/web/fib@v1.0.3
 
-replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
+// replace github.com/tullo/otel-workshop/web/fib => ../workshop/web/fib
 
 require (
 	github.com/tullo/otel-workshop/web/fib v1.0.3
