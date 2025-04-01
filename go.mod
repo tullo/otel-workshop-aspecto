@@ -1,6 +1,7 @@
 module github.com/tullo/otel-workshop-aspecto
 
-go 1.22.7
+go 1.23.0
+
 toolchain go1.24.1
 
 // GOPROXY=https://proxy.golang.org GO111MODULE=on go get github.com/tullo/otel-workshop/web/fib@v1.0.3
@@ -14,7 +15,7 @@ require (
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc v1.35.0
 	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.35.0
 	go.opentelemetry.io/otel/sdk v1.35.0
-	google.golang.org/grpc v1.71.0
+	google.golang.org/grpc v1.71.1
 )
 
 require (
