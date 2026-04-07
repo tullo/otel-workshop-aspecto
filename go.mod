@@ -2,7 +2,7 @@ module github.com/tullo/otel-workshop-aspecto
 
 go 1.25.0
 
-toolchain go1.26.1
+toolchain go1.26.2
 
 // GOPROXY=https://proxy.golang.org GO111MODULE=on go get github.com/tullo/otel-workshop/web/fib@v1.0.3
 
